@@ -35,6 +35,10 @@ foreach($tempArr as $item){
 
 
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
 <link href="/assets/style.css?<?=date('his')?>" rel="stylesheet" />
@@ -42,9 +46,9 @@ foreach($tempArr as $item){
 
 <div class="root">
 
-	<div class="hp1">
-		<div class="hp2 cwidth">
-
+	<div class="aa1">
+		<div class="cwidth">
+			<div class="aa2">text</div>
 		</div>
 	</div>
 
@@ -54,7 +58,7 @@ foreach($tempArr as $item){
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="/assets/script.js?<?=date('his')?>"></script>
 
 
