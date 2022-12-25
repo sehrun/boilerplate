@@ -30,8 +30,12 @@ h1,h2,h3,h4{margin:initial;font-size:initial;font-weight:initial}
 a{text-decoration:none;color:#11a}
 a:hover{text-decoration:underline}
 
-
-
+@keyframes rotate360 { 100% { transform:rotate(360deg); } }
+@keyframes mymove {
+    0%{background-position:10% 0%}
+    50%{background-position:70% 0%}
+    100%{background-position:10% 0%}
+}
 
 .aa1{}
 .aa2{}
