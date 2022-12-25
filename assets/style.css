@@ -21,7 +21,7 @@ h1,h2,h3,h4{margin:initial;font-size:initial;font-weight:initial}
 
 .cwidth{
 	width: 100%;
-    max-width: 1170px;
+    max-width: 120rem;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
