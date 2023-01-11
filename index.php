@@ -52,6 +52,10 @@ foreach($tempArr as $item){
 		</div>
 	</div>
 
+	<?foreach(range(1, 33) as $i){?>
+		<div class="aa3"><?=$i?></div>
+	<?}?>
+
 </div>
 
 <script
