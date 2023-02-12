@@ -126,7 +126,7 @@ a:hover{text-decoration:underline}
 \*------------------------------------*/
 @media (max-width: 1000px) {
 	html{font-size:8px}
-	.cw{width:100%;padding-left:15px;padding-right:15px;}
+	.cwidth{padding-left:15px;padding-right:15px;}
 
 
 .aa1{}
