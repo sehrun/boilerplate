@@ -10,9 +10,9 @@
 
 
 <!-- unnecessary -->
-<meta name="description" content="xxx">
+<meta name="description" content="bla-bla">
 <!-- https://html.spec.whatwg.org/multipage/semantics.html#meta-theme-color -->
-<meta name="theme-color" content="#xxx">
+<meta name="theme-color" content="#abcdef">
 <!-- Open Graph -->
 <meta property="og:locale" content="ru_RU"/>
 <meta property="og:type" content="website"/>
@@ -46,15 +46,28 @@ foreach($tempArr as $item){
 
 <div class="root">
 
-	<div class="aa1">
+	<div class="">
 		<div class="cwidth">
-			<div class="aa2">text</div>
+			<div class="">text</div>
 		</div>
 	</div>
 
+	<img src="assets/img/example.png" class="">
+	
+	<a href="mailto:example@example.com" class="">example@example.com</a>
+	<a href="tel:+79111111111" class="">+7911-111-11-11</a>
+	<a href="" class="" target="_blank" rel="noopener noreferrer">Внешняя ссылка</a>
+	
+	<button type="text" class=" button1">Действие</button>
+
 	<?foreach(range(1, 33) as $i){?>
-		<div class="aa3"><?=$i?></div>
+		<img src="assets/img/example<?=$i?>.png" class="">
 	<?}?>
+
+	<label class="">
+		<div class="">Название:</div>
+		<input id="" type="text" class="input1" name="" placeholder="">				
+	</label>
 
 </div>
 
