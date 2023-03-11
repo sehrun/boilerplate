@@ -13,21 +13,25 @@ body{
 	overflow-y:scroll;
 	font-size: 1.6rem;
 }
-h1,h2,h3,h4{margin:initial;font-size:initial;font-weight:initial}
+h1,h2,h3{
+    margin: initial;
+    font-size: initial;
+    font-weight: initial
+}
+button{all:unset;cursor:pointer}
 /*------------------------------------*\
-	blue: hsl(227, 76%, 31%)
-	blue: #11a
+	red:   #a11
+	green: #1a1
+	blue:  #11a
 \*------------------------------------*/
 
 .cwidth{
 	width: 100%;
     max-width: 120rem;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-a{text-decoration:none;color:#11a}
+a{text-decoration:none;color:inherit}
 a:hover{text-decoration:underline}
 
 @keyframes rotate360 { 100% { transform:rotate(360deg); } }
@@ -56,7 +60,6 @@ a:hover{text-decoration:underline}
 .aa17{}
 .aa18{}
 .aa19{}
-
 .aa20{}
 .aa21{}
 .aa22{}
@@ -67,7 +70,6 @@ a:hover{text-decoration:underline}
 .aa27{}
 .aa28{}
 .aa29{}
-
 .aa30{}
 .aa31{}
 .aa32{}
@@ -78,7 +80,6 @@ a:hover{text-decoration:underline}
 .aa37{}
 .aa38{}
 .aa39{}
-
 .aa40{}
 .aa41{}
 .aa42{}
@@ -120,103 +121,69 @@ a:hover{text-decoration:underline}
 .aa78{}
 .aa79{}
 .aa80{}
+.aa81{}
+.aa82{}
+.aa83{}
+.aa84{}
+.aa85{}
+.aa86{}
+.aa87{}
+.aa88{}
+.aa89{}
+.aa90{}
+.aa91{}
+.aa92{}
+.aa93{}
+.aa94{}
+.aa95{}
+.aa96{}
+.aa97{}
+.aa98{}
+.aa99{}
+.aa100{}
+.aa101{}
+.aa102{}
+.aa103{}
+.aa104{}
+.aa105{}
+.aa106{}
+.aa107{}
+.aa108{}
+.aa109{}
+.aa110{}
+.aa111{}
+.aa112{}
+.aa113{}
+.aa114{}
+.aa115{}
+.aa116{}
+.aa117{}
+.aa118{}
+.aa119{}
+.aa120{}
 
 /*------------------------------------*\
 	axd 
 \*------------------------------------*/
-@media (max-width: 1000px) {
+@media (max-width: 1280px) {
+	html{font-size:9px}
+}
+@media (max-width: 1120px) {
 	html{font-size:8px}
-	.cwidth{padding-left:15px;padding-right:15px;}
-
-
-.aa1{}
-.aa2{}
-.aa3{}
-.aa4{}
-.aa5{}
-.aa6{}
-.aa7{}
-.aa8{}
-.aa9{}
-.aa10{}
-.aa11{}
-.aa12{}
-.aa13{}
-.aa14{}
-.aa15{}
-.aa16{}
-.aa17{}
-.aa18{}
-.aa19{}
-.aa20{}
-.aa21{}
-.aa22{}
-.aa23{}
-.aa24{}
-.aa25{}
-.aa26{}
-.aa27{}
-.aa28{}
-.aa29{}
-
-.aa30{}
-.aa31{}
-.aa32{}
-.aa33{}
-.aa34{}
-.aa35{}
-.aa36{}
-.aa37{}
-.aa38{}
-.aa39{}
-
-.aa40{}
-.aa41{}
-.aa42{}
-.aa43{}
-.aa44{}
-.aa45{}
-.aa46{}
-.aa47{}
-.aa48{}
-.aa49{}
-.aa50{}
-.aa51{}
-.aa52{}
-.aa53{}
-.aa54{}
-.aa55{}
-.aa56{}
-.aa57{}
-.aa58{}
-.aa59{}
-.aa60{}
-.aa61{}
-.aa62{}
-.aa63{}
-.aa64{}
-.aa65{}
-.aa66{}
-.aa67{}
-.aa68{}
-.aa69{}
-.aa70{}
-.aa71{}
-.aa72{}
-.aa73{}
-.aa74{}
-.aa75{}
-.aa76{}
-.aa77{}
-.aa78{}
-.aa79{}
-.aa80{}
 }
 
-
-@media (max-width: 600px) {
-
-
+/*------------------------------------*\
+@font-face{
+	font-family:'xxx';
+	src:url(fonts/xxx-Regular.otf);
+	font-weight:400;
+	ascent-override: 92%;
+	descent-override: 10%;
+}
+\*------------------------------------*/
+@media (max-width: 900px) {
+html{font-size:8px}
+.cwidth{padding-left: 15px;padding-right: 15px;}
 .aa1{}
 .aa2{}
 .aa3{}
@@ -246,7 +213,6 @@ a:hover{text-decoration:underline}
 .aa27{}
 .aa28{}
 .aa29{}
-
 .aa30{}
 .aa31{}
 .aa32{}
@@ -257,7 +223,6 @@ a:hover{text-decoration:underline}
 .aa37{}
 .aa38{}
 .aa39{}
-
 .aa40{}
 .aa41{}
 .aa42{}
@@ -299,6 +264,46 @@ a:hover{text-decoration:underline}
 .aa78{}
 .aa79{}
 .aa80{}
+.aa81{}
+.aa82{}
+.aa83{}
+.aa84{}
+.aa85{}
+.aa86{}
+.aa87{}
+.aa88{}
+.aa89{}
+.aa90{}
+.aa91{}
+.aa92{}
+.aa93{}
+.aa94{}
+.aa95{}
+.aa96{}
+.aa97{}
+.aa98{}
+.aa99{}
+.aa100{}
+.aa101{}
+.aa102{}
+.aa103{}
+.aa104{}
+.aa105{}
+.aa106{}
+.aa107{}
+.aa108{}
+.aa109{}
+.aa110{}
+.aa111{}
+.aa112{}
+.aa113{}
+.aa114{}
+.aa115{}
+.aa116{}
+.aa117{}
+.aa118{}
+.aa119{}
+.aa120{}
 
 }
 
