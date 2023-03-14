@@ -66,9 +66,9 @@ foreach($tempArr as $item){
 
 	<label class="">
 		<div class="">Название:</div>
-		<input id="" type="text" class="input1" name="" placeholder="">				
+		<input id="" type="text" class="input1" name="" placeholder=""  inputmode="numeric">				
 	</label>
-
+	
 </div>
 
 <script
