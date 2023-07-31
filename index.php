@@ -60,6 +60,10 @@ foreach($tempArr as $item){
 	
 	<button type="text" class=" button1">Действие</button>
 
+	<?for($i=1;$i<=33;$i++){?>
+		<img src="path/<?=$i?>.jpg" class="" >
+	<?}?>
+	
 	<?foreach(range(1, 33) as $i){?>
 		<img src="assets/img/example<?=$i?>.png" class="">
 	<?}?>
