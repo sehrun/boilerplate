@@ -24,7 +24,7 @@
 <!-- unnecessary -->
 
 
-<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/favicon.ico" rel="shortcut icon" />
 <?
 $tempArr = ['https://fonts.gstatic.com/','https://use.fontawesome.com/','https://code.jquery.com'];
 foreach($tempArr as $item){
