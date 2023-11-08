@@ -1,7 +1,26 @@
 @charset "UTF-8";
+/*
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight#common_weight_name_mapping
+100	Thin (Hairline)
+200	Extra Light (Ultra Light)
+300	Light
+400	Normal (Regular)
+500	Medium
+600	Semi Bold (Demi Bold)
+700	Bold
+800	Extra Bold (Ultra Bold)
+900	Black (Heavy)
+*/
 
+@font-face{font-family:'xxx';src:url(fonts/xxx-Thin.otf);font-weight:100}
+@font-face{font-family:'xxx';src:url(fonts/xxx-ExtraLight.otf);font-weight:200}
+@font-face{font-family:'xxx';src:url(fonts/xxx-Light.otf);font-weight:300}
 @font-face{font-family:'xxx';src:url(fonts/xxx-Regular.otf);font-weight:400}
+@font-face{font-family:'xxx';src:url(fonts/xxx-Medium.otf);font-weight:500}
+@font-face{font-family:'xxx';src:url(fonts/xxx-Semibold.otf);font-weight:600}
 @font-face{font-family:'xxx';src:url(fonts/xxx-Bold.otf);font-weight:700}
+@font-face{font-family:'xxx';src:url(fonts/xxx-ExtraBold.otf);font-weight:800}
+@font-face{font-family:'xxx';src:url(fonts/xxx-Heavy.otf);font-weight:900}
 
 *{box-sizing:border-box;}
 html,body{margin:0;padding:0}
