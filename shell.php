@@ -58,14 +58,16 @@ set_time_limit(300);
 	    <h1>PHP Shell</h1>
             <h2> Execute a command </h2>
             <pre style="line-height:1">
-			<div class="ce"><?=__DIR__;?></div>
+			<div class=""><?=__DIR__;?></div>
 			<div class="ce">grep -rn --include=\*.php 'wp-content' -e 'Template Name'</div>
+			<div class="ce">grep -rn --include=\*.php 'local' -e 'xxx'</div>
 			<div class="ce">grep -rn 'catalog' -e 'xxx'</div>
 			<div class="ce">find . -name '*.jpg' -o -name '*.png' -print</div>
 			<div class="ce">find '/etc/' -name '*.conf'</div>
 			<div class="ce">zip -qr filename.zip folderToZipPath</div>
 			<div class="ce">zip -qr ./filename.zip './local/templates'</div>
 			<div class="ce">find . -cmin -400 -print | zip ./filename.zip -@</div>
+			<div class="ce">find . -cmin -600  -not -path "./upload/*" -not -path "./bitrix/*" -print | zip ./filename.zip -@</div>			
 			<div class="ce">unzip -o filename.zip -d temp -x '\.*' '*/\.*'; echo $?</div>
 			<div class="ce">grep -rn 'system/storage/logs/' -e 'extractZip'</div>
 			<div class="ce">tail -n 10 'system/storage/logs/error.log'</div>
